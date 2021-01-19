@@ -4,8 +4,10 @@ async function timer(request, response) {
 
     const subscribersResponse = await fetch(`https://api.convertkit.com/v3/subscribers?api_secret=${apiSecret}`);
     const subscribersResponseJson = await subscribersResponse.json();
-    const inscritos = 9999 //subscribersResponseJson.total_subscribers;
+    const inscritos = subscribersResponseJson.total_subscribers;
 
+    response.setHeader('Cache-control', 's-maxage=10, stale-while-revalidate');
+    
     response.json({
         date: dynamicDate.toGMTString(),
         inscritos: inscritos,
