@@ -74,6 +74,8 @@ export const CarouselItemTitle = styled.h4`
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
   /* -webkit-text-fill-color: transparent; */
+  /* this was added due to a bug fix */
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.83);
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
