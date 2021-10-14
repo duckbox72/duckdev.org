@@ -5,6 +5,7 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  border-radius: 8px 8px 0px 0px;
 `
 
 export const GridContainer = styled.section`
@@ -23,7 +24,7 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -89,14 +90,14 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color:#f5f5f5;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
+background: #212D45;
+border-radius: 4px;
 transition: 0.5s;
 &:hover{
-  background: #801414;
+  background: #4b5670;
 
 }
 `;
