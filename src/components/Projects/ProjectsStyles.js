@@ -5,7 +5,7 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 8px 8px 0px 0px;
+  border-radius: 12px 12px 0px 0px;
 `
 
 export const GridContainer = styled.section`
@@ -24,7 +24,7 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 8px;
+  border-radius: 12px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
@@ -94,7 +94,7 @@ color:#f5f5f5;
 font-size: 1.6rem;
 padding:1rem 1.5rem;
 background: #212D45;
-border-radius: 4px;
+border-radius: 12px;
 transition: 0.5s;
 &:hover{
   background: #4b5670;
