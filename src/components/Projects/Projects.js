@@ -11,14 +11,17 @@ const Projects = () => (
       Projects
     </SectionTitle>
     <GridContainer>
-      {projects.map(({id, title, image, tags, source, visit}) => (
+      {projects.map(({id, title, image, description, tags, source, visit}) => (
         <BlogCard key={id}>
           <Img src={image} />
           <TitleContent>
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
-          <CardInfo>Description</CardInfo>
+          <CardInfo>Description <br />
+          {description}
+
+          </CardInfo>
           <div>
             <TitleContent>Stack</TitleContent>
             <TagList>
