@@ -2,8 +2,8 @@ export const projects = [
   {
     title: 'Cellar Club',
     description: "Complete and fully functional wine cellar manager web application",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
+      image: '/images/cellarclub_thumb.png',
+      tags: ['Python', 'Django', 'Material UI', 'React'],
     source: 'https://google.com',
     visit: 'https://google.com',
     id: 0,
