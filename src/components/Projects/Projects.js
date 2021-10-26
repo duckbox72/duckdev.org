@@ -20,9 +20,8 @@ const Projects = () => (
             <HeaderThree title>{title}</HeaderThree>
             <Hr />
           </TitleContent>
-          <CardInfo>Description <br />
-          {description}
-
+          <CardInfo> 
+            {description}
           </CardInfo>
           <div style={{marginTop: '2rem'}} >
             <TitleContent>Stack</TitleContent>
