@@ -1,8 +1,10 @@
 import React from 'react';
+import { AiFillGithub, AiFillYoutube} from 'react-icons/ai';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
+import { SocialIcons } from '../Header/HeaderStyles'
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -31,8 +33,13 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={visit}>Visit</ExternalLinks>
-            <ExternalLinks href={source}>Source</ExternalLinks>
+            <ExternalLinks href={visit}>
+              YouTube
+            </ExternalLinks>
+            <ExternalLinks href={source}>
+              <AiFillGithub size='3rem' />
+              Source
+            </ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}
