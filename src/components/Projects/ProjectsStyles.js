@@ -33,6 +33,7 @@ export const BlogCard = styled.div`
   }
 `;
 export const TitleContent = styled.div`
+  
   text-align: center;
   z-index: 20;
   width: 100%;
@@ -90,12 +91,17 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
+display: flex;
+flex-direction: row;
+align-items: center;
+
 color:#f5f5f5;
 font-size: 1.6rem;
 padding:1.5rem 3rem;
 background: #212D45;
 border-radius: 50px;
 transition: 0.5s;
+
 &:hover{
   background: #4b5670;
 
@@ -105,7 +111,7 @@ transition: 0.5s;
 export const TagList = styled.ul`
 display: flex;
 justify-content: space-around;
-padding: 2rem;
+padding: 1.5rem;
 `
 export const Tag = styled.li`
 color: #d8bfbf;
