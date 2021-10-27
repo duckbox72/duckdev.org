@@ -9,7 +9,7 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Luis Felipe Klaus <br />
-        My personal portfolio
+        Personal Portfolio
       </SectionTitle>
       <SectionText>
         Hi, i have created this portfolio to showcase and easily share my personal and contact information, skills, projects and accomplishments from a single place.  
