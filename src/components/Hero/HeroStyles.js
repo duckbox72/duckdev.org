@@ -33,14 +33,14 @@ export const AvatarContainer = styled.div`
 `;
 
 export const Avatar = styled.img`
-  width:232px;
-  height:232px;
+  width: 232px;
+  height: 232px;
   border-radius: 50%;
-  border: 6px solid #121214
+  border: 6px solid #121214;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 154px;
     height: 154px;
-    border: 3px solid #121214
+    border: 3px solid #121214;
   }
  
 `;
