@@ -12,9 +12,11 @@ const Hero = () => (
         Full Stack Developer 
       </SectionTitle>
       <SectionText>
-        Hi, i have created this portfolio to showcase and easily share my personal and contact information, skills, projects and accomplishments from a single place.  
+        Hi, i have created this portfolio to  easily showcase and share from a single place my personal information, projects, skills, accomplishments and contact.  
       </SectionText>
-      
+      <Button onClick={() => window.location='https://google.com'}>
+        Learn More
+      </Button>
     </LeftSection>
   </Section>
 );
