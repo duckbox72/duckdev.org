@@ -9,14 +9,12 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Luis Felipe Klaus <br />
-        Personal Portfolio
+        Full Stack Developer 
       </SectionTitle>
       <SectionText>
         Hi, i have created this portfolio to showcase and easily share my personal and contact information, skills, projects and accomplishments from a single place.  
       </SectionText>
-      <Button onClick={() => window.location='https://google.com'}>
-        Learn More
-      </Button>
+      
     </LeftSection>
   </Section>
 );
