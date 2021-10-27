@@ -1,11 +1,12 @@
 export const projects = [
   {
     title: 'Cellar Club',
-    description: "Complete and fully functional wine cellar manager web application",
+    description: "CellarClub is a complete and fully functional wine-cellar manager web application where users are able to easily create and maintain a collection from a more than 100K items native database, keeping track of purchase information and storage location. Users can also create memories, write tasting reviews and publish them to the CellarClub community.",
       image: '/images/cellarclub_thumb.png',
-      tags: ['Python', 'Django', 'Material UI', 'React'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+      tags: ['Python', 'Django', 'SQLite', 'React', 'Heroku'],
+    source: 'https://github.com/duckbox72/cellar-club',
+    visit: 'http://cellarclub-cli.herokuapp.com',
+    youtube: 'https://youtu.be/DlXvMzUhy_k',
     id: 0,
   },
   {
