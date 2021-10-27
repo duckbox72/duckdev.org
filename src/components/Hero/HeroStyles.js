@@ -17,3 +17,22 @@ export const LeftSection = styled.div`
     margin: 0 auto;
   }
 `;
+
+export const Avatar = styled.img`
+  width:232px;
+  height:232px;
+  border-radius: 50%;
+  border: 6px solid #121214
+  
+`;
+
+export const AvatarContainer = styled.div`
+  padding: 4px;
+  width: 240px;
+  height: 240px;  
+  background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+  border-radius: 50%;
+  line-height: 0;
+`;
+
+//'linear-gradient(270deg, #F46737 0%, #945DD6 100%)'

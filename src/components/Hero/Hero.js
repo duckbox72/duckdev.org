@@ -2,11 +2,14 @@ import React from 'react';
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { Avatar, AvatarContainer, LeftSection } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
+      <AvatarContainer>
+        <Avatar src='/images/face_stamp.jpg'/>
+      </AvatarContainer>
       <SectionTitle main center>
         Luis Felipe Klaus <br />
         Full Stack Developer 
