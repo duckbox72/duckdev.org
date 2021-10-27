@@ -18,14 +18,6 @@ export const LeftSection = styled.div`
   }
 `;
 
-export const Avatar = styled.img`
-  width:232px;
-  height:232px;
-  border-radius: 50%;
-  border: 6px solid #121214
-  
-`;
-
 export const AvatarContainer = styled.div`
   padding: 4px;
   width: 240px;
@@ -33,6 +25,23 @@ export const AvatarContainer = styled.div`
   background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
   border-radius: 50%;
   line-height: 0;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 3px;
+    width: 160px;
+    height: 160px;
+  }
 `;
 
-//'linear-gradient(270deg, #F46737 0%, #945DD6 100%)'
+export const Avatar = styled.img`
+  width:232px;
+  height:232px;
+  border-radius: 50%;
+  border: 6px solid #121214
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 154px;
+    height: 154px;
+    border: 3px solid #121214
+  }
+ 
+`;
+
