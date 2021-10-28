@@ -13,7 +13,6 @@ export const LeftSection = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-
     margin: 0 auto;
   }
 `;
@@ -37,6 +36,7 @@ export const Avatar = styled.img`
   height: 232px;
   border-radius: 50%;
   border: 6px solid #121214;
+  object-fit: fill;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 154px;
     height: 154px;

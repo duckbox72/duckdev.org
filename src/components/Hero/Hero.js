@@ -7,9 +7,9 @@ import { Avatar, AvatarContainer, LeftSection } from './HeroStyles';
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
-      <AvatarContainer>
+      {/* <AvatarContainer>
         <Avatar src='/images/face_stamp.jpg'/>
-      </AvatarContainer>
+      </AvatarContainer> */}
       <SectionTitle main center>
         Luis Felipe Klaus <br />
         Full Stack Developer 
@@ -17,9 +17,9 @@ const Hero = () => (
       <SectionText>
         Hi, i have created this portfolio to  easily showcase and share from a single place my personal information, projects, skills, accomplishments and contact.  
       </SectionText>
-      <Button onClick={() => window.location='https://google.com'}>
+      {/* <Button onClick={() => window.location='https://google.com'}>
         Learn More
-      </Button>
+      </Button> */}
     </LeftSection>
   </Section>
 );
