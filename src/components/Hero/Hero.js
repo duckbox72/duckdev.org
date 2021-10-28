@@ -9,10 +9,10 @@ const Hero = () => (
     <LeftSection>
         <AvatarContainer>
           <Avatar src='/images/face_stamp.jpg'/>
-        </AvatarContainer> <br />
+        </AvatarContainer>
       <SectionTitle main center>
         Luis Felipe Klaus <br />
-        <span>Full Stack Developer</span> 
+        Full Stack Developer
       </SectionTitle>
       <SectionText>
         Hi, i have created this portfolio to  easily showcase and share from a single place my personal information, projects, skills, accomplishments and contact.  
