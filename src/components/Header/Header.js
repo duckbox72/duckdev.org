@@ -12,9 +12,9 @@ const Header = () =>  (
       <Link href="/">
         <a style={{display: 'flex', alignItems: 'center', 'color': 'white', marginBottom: '20px'}}>
           <GiPlasticDuck 
-           size='3rem' 
+           size='2rem' 
            style={{marginRight: 4}}
-          /> <Title>duckdev.org</Title>
+          /> <Title>portfolio</Title>
         </a>
       </Link>
     </Div1>
