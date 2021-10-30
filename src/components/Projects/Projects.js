@@ -24,7 +24,7 @@ const Projects = () => (
             {description}
           </CardInfo>
           <div style={{marginTop: '2rem'}} >
-            <TitleContent>Stack</TitleContent>
+            <TitleContent style={{fontSize: '2rem'}}>Stack</TitleContent>
             <TagList>
               {tags.map((tag, i) => (
                 <Tag key={i}>{tag}</Tag>
@@ -33,11 +33,11 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={youtube} target="_blank">
-              <AiFillYoutube size="2.5rem" style={{paddingRight: 4, paddingBottom: 2}} /> 
+              <AiFillYoutube style={{paddingRight: 4, paddingBottom: 2}} /> 
               <div>YouTube</div>
             </ExternalLinks>
             <ExternalLinks href={source} target="_blank">
-              <AiFillGithub size='2.2rem' style={{paddingRight: 4}} /> Source
+              <AiFillGithub style={{paddingRight: 4}} /> Source
             </ExternalLinks>
           </UtilityList>
         </BlogCard>

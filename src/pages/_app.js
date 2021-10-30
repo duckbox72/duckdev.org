@@ -6,6 +6,7 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <title>Luis Felipe Klaus | Portfolio</title>
+        
       </Head>
       
       <Theme>
