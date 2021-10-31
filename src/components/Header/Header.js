@@ -12,7 +12,7 @@ const Header = () =>  (
       <Link href="/">
         <a style={{display: 'flex', alignItems: 'center', 'color': 'white', marginBottom: '20px'}}>
           <GiPlasticDuck 
-           size='2rem' 
+           size='20px' 
            style={{marginRight: 4}}
           /> <Title>portfolio</Title>
         </a>
@@ -40,10 +40,10 @@ const Header = () =>  (
         <AiFillGithub size='30px' />
       </SocialIcons>
       <SocialIcons href='https://www.linkedin.com/in/duckbox1' target="_blank">
-        <AiFillLinkedin size='3rem' />
+        <AiFillLinkedin size='30px' />
       </SocialIcons>
       <SocialIcons href='https://www.instagram.com/duckbox1' target="_blank">
-        <AiFillInstagram size='3rem' />
+        <AiFillInstagram size='30px' />
       </SocialIcons>
     </Div3>
   </Container>

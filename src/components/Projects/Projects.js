@@ -33,11 +33,11 @@ const Projects = () => (
           </div>
           <UtilityList>
             <ExternalLinks href={youtube} target="_blank">
-              <AiFillYoutube style={{paddingRight: 4, paddingBottom: 2}} /> 
+              <AiFillYoutube style={{paddingRight: 4, paddingBottom: 2}} size='20px' /> 
               <div>YouTube</div>
             </ExternalLinks>
             <ExternalLinks href={source} target="_blank">
-              <AiFillGithub style={{paddingRight: 4}} /> Source
+              <AiFillGithub style={{paddingRight: 4}} size='20px' /> Source
             </ExternalLinks>
           </UtilityList>
         </BlogCard>
