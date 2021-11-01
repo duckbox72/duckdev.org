@@ -56,7 +56,7 @@ export const Hr = styled.hr`
   border: 0;
   //background: #d0bb57;
 
-  background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 1) 100%);
 `;
 
 export const Intro = styled.div`
