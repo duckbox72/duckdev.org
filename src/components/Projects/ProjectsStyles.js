@@ -5,8 +5,8 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 36px 36px 36px 36px;
-  padding: 24px;
+  border-radius: 24px 24px 24px 24px;
+  padding: 12px;
 `
 
 export const GridContainer = styled.section`
