@@ -8,7 +8,7 @@ import { SocialIcons } from '../Header/HeaderStyles'
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionDivider />
+    <SectionDivider style={{marginBottom: '-3rem'}} />
     <SectionTitle main>
       Projects
     </SectionTitle>
@@ -43,6 +43,7 @@ const Projects = () => (
         </BlogCard>
       ))}
     </GridContainer>
+    <SectionDivider /> 
   </Section>
 );
 

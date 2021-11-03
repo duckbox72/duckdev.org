@@ -5,8 +5,6 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section id="tech">
-    <SectionDivider />
-    <br />
     <SectionTitle>Skills</SectionTitle>
     <SectionText>
       I have worked with a range of Technologies in web development and data science
@@ -46,6 +44,7 @@ const Technologies = () =>  (
         </ListContainer>
       </ListItem>
     </List>
+    <SectionDivider />
   </Section>
 );
 
