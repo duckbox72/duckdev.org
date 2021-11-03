@@ -28,7 +28,7 @@ export const AvatarContainer = styled.div`
   background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
   border-radius: 50%;
   line-height: 0;
-  margin-bottom: -40px;
+  //margin-bottom: -40px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 3px;
     width: 160px;
