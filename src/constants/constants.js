@@ -32,7 +32,7 @@ export const projects = [
     description:"Auctions is an eBay-like e-Commerce auction web application implemented in Python and Django. It allows users to perform a variety of actions. When autenticaded users interested in selling an item are able to easily post, manage and close their listings, while users willing to buy a listed product can place bids, make comments and add listings to a watchlist.",
     image: '/images/commerce_thumb.png',
     tags: ['Python', 'Django', 'SQLite', 'HTML', 'CSS'],
-    source: 'TODO',
+    source: 'https://github.com/duckbox72/auctions',
     youtube: 'https://youtu.be/97cva5HQytA',
     id: 3,
   },
