@@ -79,7 +79,7 @@ export const CardInfo = styled.p`
   line-height: 20px;
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 1.5rem;
+    padding: 1rem;
   
 }
 `;
