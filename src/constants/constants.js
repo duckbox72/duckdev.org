@@ -50,7 +50,7 @@ export const projects = [
     title: "Traffic AI",
     description: "Traffic is an implementation of a Convolutional Neural Network (CNN) built with TensorFlow Keras Sequential Model. The model classifies road signs based on images. For training and testing the model, the German Traffic Sign Recognition Benchmark (GTSRB) labeled dataset, which contains thousands of images of 43 different kinds of road signs, was used.",
       image: '/images/traffic_thumb.png',
-      tags: ['Python', 'TensorFLow', 'Keras Sequential Model'],
+      tags: ['Python', 'TensorFLow', 'Keras'],
     source: 'https://github.com/duckbox72/CS50AI-projects/tree/main/traffic',
     youtube: 'https://youtu.be/dUiGJd24B94',
     id: 5,
