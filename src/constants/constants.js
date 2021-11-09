@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     title: 'Auctions',
-    description:"Auctions is an eBay-like e-Commerce auction web application implemented in Python and Django. It allows users to perform a variety of actions. When autenticaded users interested in selling an item are able to easily post, manage and close their listings, while users willing to buy a listed product can place bids, make comments and add listings to a watchlist.",
+    description:"Auctions is an eBay-like e-Commerce web application implemented in Python and Django. It allows users to perform a variety of actions. When autenticaded users interested in selling an item are able to easily post, manage and close their listings, while users willing to buy a listed product can place bids, make comments or add it to a watchlist.",
     image: '/images/commerce_thumb.png',
     tags: ['Python', 'Django', 'SQLite', 'HTML', 'CSS'],
     source: 'https://github.com/duckbox72/auctions',
@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     title: "Traffic AI",
-    description: "Traffic is an implementation of a Convolutional Neural Network (CNN) built with TensorFlow Keras Sequential Model. The model classifies road signs based on images. For training and testing the model, the German Traffic Sign Recognition Benchmark (GTSRB) labeled dataset, which contains thousands of images of 43 different kinds of road signs, was used.",
+    description: "Traffic is a Convolutional Neural Network (CNN) built with TensorFlow Keras Sequential Model. The model classifies road signs based on images. For training and testing the model, the German Traffic Sign Recognition Benchmark (GTSRB) labeled dataset, which contains thousands of images of 43 different kinds of road signs, was used.",
       image: '/images/traffic_thumb.png',
       tags: ['Python', 'TensorFLow', 'Keras'],
     source: 'https://github.com/duckbox72/CS50AI-projects/tree/main/traffic',

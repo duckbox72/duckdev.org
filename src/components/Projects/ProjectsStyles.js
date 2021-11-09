@@ -1,12 +1,16 @@
 import styled from 'styled-components';
 
 export const Img = styled.img`
-  width:100%;
-  height:100%;
+  width:85%;
+  height:85%;
   object-fit: cover;
   overflow: hidden;
-  border-radius: 24px 24px 24px 24px;
+  //border-radius: 24px 24px 24px 24px;
+  border-radius: 16px;
   padding: 12px;
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100%;
+  }
 `
 
 export const GridContainer = styled.section`
@@ -26,11 +30,11 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   border-radius: 12px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+  //box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
-  // background: linear-gradient(270deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.05) 100%);
-  background-color: #212D45;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.04) 100%);
+  //background-color: #212D45;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
