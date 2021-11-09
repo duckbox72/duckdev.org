@@ -1,10 +1,10 @@
 import React from 'react';
-import { AiFillGithub, AiFillYoutube} from 'react-icons/ai';
+import { AiFillGithub, AiFillYoutube, AiFillThunderbolt } from 'react-icons/ai';
+import { MdHome } from "react-icons/md";
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { projects } from '../../constants/constants';
-import { SocialIcons } from '../Header/HeaderStyles'
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -32,12 +32,19 @@ const Projects = () => (
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={youtube} target="_blank">
-              <AiFillYoutube style={{paddingRight: 4, paddingBottom: 2}} size='20px' /> 
-              <div>YouTube</div>
-            </ExternalLinks>
+            { visit ? 
+              <ExternalLinks href={visit} target="_blank">
+                <MdHome style={{paddingRight: 4}} size='20px' /> Visit
+              </ExternalLinks>
+              :
+              <></>
+            }
             <ExternalLinks href={source} target="_blank">
               <AiFillGithub style={{paddingRight: 4}} size='20px' /> Source
+            </ExternalLinks>
+            <ExternalLinks href={youtube} target="_blank">
+              <AiFillYoutube style={{paddingRight: 4, paddingBottom: 2}} size='20px' /> 
+              <div>Demo</div>
             </ExternalLinks>
           </UtilityList>
         </BlogCard>

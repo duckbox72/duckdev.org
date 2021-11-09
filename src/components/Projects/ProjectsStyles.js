@@ -105,14 +105,13 @@ align-items: center;
 
 color:#f5f5f5;
 font-size: 1.6rem;
-padding:1.2rem 1.8rem;
-background: #212D45;
+padding:1.0rem 1.8rem;
 border-radius: 50px;
 transition: 0.5s;
 
 &:hover{
-  background: #4b5670;
-
+  background: #212D45;
+  //background: #4b5670;
 }
 `;
 
