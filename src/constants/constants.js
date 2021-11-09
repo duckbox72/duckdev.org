@@ -58,9 +58,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 'Mar 20', text: 'Started my journey', },
-  { year: 'Jun 20', text: 'Finished IBM Data Science'},
-  { year: 'Nov 20', text: 'Finished CS50' },
-  { year: 'Jun 21', text: 'Awarded Profesional Certificate' },
-  { year: 'Oct 21', text: 'Awarded Profesional Certificate'},
+  { year: 'Mar/20', text: 'Started my journey', },
+  { year: 'Jun/20', text: 'Finished IBM Data Science'},
+  { year: 'Nov/20', text: 'Finished CS50' },
+  { year: 'Jun/21', text: 'Awarded Profesional Certificate' },
+  { year: 'Oct/21', text: 'Awarded Profesional Certificate'},
 ];

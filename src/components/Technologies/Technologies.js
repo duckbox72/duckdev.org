@@ -14,7 +14,7 @@ const Technologies = () =>  (
       <ListItem>
         <DiReact size="30px" />
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Computer Science for Artificial Intelligence</ListTitle>
           <ListParagraph>
             Experience with <br />
             JavaScript <br />
