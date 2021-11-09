@@ -20,7 +20,7 @@ const Home = () => {
       <Technologies />
       <Education />
 
-      <Acomplishments />
+      {/* <Acomplishments /> */}
     </Layout>
   );
 };

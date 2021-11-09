@@ -9,11 +9,11 @@ const Header = () =>  (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{display: 'flex', alignItems: 'center', 'color': 'white', marginBottom: '20px'}}>
+        <a style={{display: 'flex', 'color': '#fff'}}>
           <GiPlasticDuck 
            size='20px' 
            style={{marginRight: 4}}
-          /> <Title>portfolio</Title>
+          /> <Title>duckdev</Title>
         </a>
       </Link>
     </Div1>
@@ -25,12 +25,12 @@ const Header = () =>  (
       </li>
       <li>
         <Link href='#tech'>
-          <NavLink>Tecnlogies</NavLink>
+          <NavLink>Skills</NavLink>
         </Link>
       </li>
       <li>
-        <Link href='#about'>
-          <NavLink>About</NavLink>
+        <Link href='#education'>
+          <NavLink>Education</NavLink>
         </Link>
       </li>
     </Div2>

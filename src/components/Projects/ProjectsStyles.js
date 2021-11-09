@@ -33,7 +33,7 @@ export const BlogCard = styled.div`
   //box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.04) 100%);
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.03) 100%);
   //background-color: #212D45;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;

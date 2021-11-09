@@ -10,10 +10,23 @@ const data = [
 
 const Education = () => {
     return (
-        <Section id="education">
-            <SectionDivider style={{marginBottom: '1rem'}} />
-            <SectionTitle>Education & Certifications</SectionTitle>
-        </Section>
+        <>
+            <Section id="education">
+                <SectionDivider style={{marginBottom: '1rem'}} />
+                <SectionTitle>Education</SectionTitle>
+            </Section>
+
+
+
+
+
+
+
+            <Section id="certificates">
+                <SectionDivider style={{marginBottom: '1rem'}} />
+                <SectionTitle>Certifications</SectionTitle>
+            </Section>
+        </>
 
 
 
