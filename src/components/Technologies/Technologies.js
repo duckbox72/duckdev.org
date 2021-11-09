@@ -1,5 +1,6 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { FaReact } from "react-icons/fa";
+import { BiServer, BiData } from "react-icons/bi";
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,39 +9,39 @@ const Technologies = () =>  (
     <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} /> 
     <SectionTitle>Skills</SectionTitle>
     <SectionText>
-      I have worked with a range of Technologies in web development and data science
+      I have worked with a range of technologies in web development,  data-science and artificial intelligence
     </SectionText>
     <List>
       <ListItem>
-        <DiReact size="30px" />
+        <FaReact size="30px" />
         <ListContainer>
-          <ListTitle>Computer Science for Artificial Intelligence</ListTitle>
+          <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
+            HTML/CSS <br />
             JavaScript <br />
             React.js 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-      <DiFirebase size="30px" />
+      <BiServer size="30px" />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
             Python/Django <br />
-            Node.js <br />
-            SQL and No-SQL databases  
+            Node.js <br /> 
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
-        <DiZend size="30px" />
+        <BiData size="30px" />
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Database</ListTitle>
           <ListParagraph>
-            Tools like <br />
-            Figma
+            SQlite <br />
+            MySql <br />
+            Postgress <br />
+            MongoDb
           </ListParagraph>
         </ListContainer>
       </ListItem>

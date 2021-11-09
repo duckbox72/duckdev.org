@@ -11,7 +11,7 @@ const Header = () =>  (
       <Link href="/">
         <a style={{display: 'flex', 'color': '#fff'}}>
           <GiPlasticDuck 
-           size='20px' 
+           size='16px' 
            style={{marginRight: 4}}
           /> <Title>duckdev</Title>
         </a>

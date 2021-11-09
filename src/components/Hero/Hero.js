@@ -15,7 +15,7 @@ const Hero = () => (
         Full Stack Developer
       </SectionTitle>
       <SectionText>
-        Hi, i have created this portfolio to  easily showcase and share from a single place my personal information, projects, skills, accomplishments and contact.  
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis libero eget est condimentum rhoncus. Nam sed turpis lectus. Aenean molestie vehicula magna ut condimentum. Aenean faucibus sem dui, ac gravida augue cursus quis. Nam fermentum fringilla risus quis porta. Maecenas tincidunt urna at porta sollicitudin. Nulla facilisi. Nulla finibus.  
       </SectionText>
       {/* <Button onClick={() => window.location='https://google.com'}>
         Learn More
