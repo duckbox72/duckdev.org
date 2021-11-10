@@ -12,7 +12,7 @@ const Education = () => {
     return (
         <>
             <Section id="education">
-                <SectionDivider style={{marginBottom: '1rem'}} />
+                <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
                 <SectionTitle>Education</SectionTitle>
             </Section>
 
@@ -23,7 +23,7 @@ const Education = () => {
 
 
             <Section id="certificates">
-                <SectionDivider style={{marginBottom: '1rem'}} />
+                <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
                 <SectionTitle>Certifications</SectionTitle>
             </Section>
         </>

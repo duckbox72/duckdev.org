@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaReact } from "react-icons/fa";
+import { GiArtificialHive } from "react-icons/gi";
 import { BiServer, BiData } from "react-icons/bi";
+
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -8,9 +10,9 @@ const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} /> 
     <SectionTitle>Skills</SectionTitle>
-    <SectionText>
+    {/* <SectionText>
       I have worked with a range of technologies in web development,  data-science and artificial intelligence
-    </SectionText>
+    </SectionText> */}
     <List>
       <ListItem>
         <FaReact size="30px" />
@@ -19,7 +21,8 @@ const Technologies = () =>  (
           <ListParagraph>
             HTML/CSS <br />
             JavaScript <br />
-            React.js 
+            React.js <br />
+            React-Native 
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -28,8 +31,10 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Python/Django <br />
+            Python <br />
+            Django <br />
             Node.js <br /> 
+            Express
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -42,6 +47,19 @@ const Technologies = () =>  (
             MySql <br />
             Postgress <br />
             MongoDb
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <GiArtificialHive size="30px" />
+        <ListContainer>
+          <ListTitle>Data Science</ListTitle>
+          <ListParagraph>
+            Pandas Numpy Scipy <br />
+            Matplotlib Seaborn <br />
+            ScikitLearn NLTK <br />
+            TensorFlow
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -8,7 +8,7 @@ import { projects } from '../../constants/constants';
 
 const Projects = () => (
   <Section nopadding id="projects">
-    <SectionDivider />
+    <SectionDivider style={{marginBottom: '0.5rem', marginTop: '3rem'}} />
     <SectionTitle main>
       Projects
     </SectionTitle>
