@@ -1,16 +1,17 @@
 import React from 'react';
+import { projects } from '../../constants/constants';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import { EducationContainer, EducationLinks, EducationParagraph, EducationTitle } from './EducationStyles';
 
-const educationData = [
+const education = 
     { 
-        title: "Bachelor's degree in Economics",
+        title: "Bachelor's degree in Economics / (Ciências Economicas)",
         institution: 'Universidade Federal de Pernambuco',
         issueDate: 'Oct 1999',
-        credentialId: '',
-        credentialUrl: '',
-        projectsUrl: '',   
-    },
+    }
+
+const certificates = [    
     { 
         title: 'Computer Science for Web Programming',
         institution: 'Harvard University',
@@ -37,6 +38,11 @@ const Education = () => {
                 <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
                 <SectionTitle>Education</SectionTitle>
             
+                <EducationContainer>
+                    <EducationTitle>{education.institution}</EducationTitle>
+                    <EducationParagraph>{education.title}</EducationParagraph>
+                    <EducationParagraph>Issued {education.issueDate}</EducationParagraph>
+                </EducationContainer>
             
             
             </Section>
@@ -46,7 +52,16 @@ const Education = () => {
             <Section id="certificates">
                 <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
                 <SectionTitle>Certifications</SectionTitle>
-            
+                {certificates.map(({title, institution, issueDate, credentialId, credentialUrl, projectsUrl}) => (
+                    <EducationContainer>
+                        <EducationTitle>{title}</EducationTitle>
+                        <EducationParagraph>{institution}</EducationParagraph>
+                        <EducationParagraph>Issued {issueDate}</EducationParagraph>
+                        <EducationParagraph>Credential ID {credentialId}</EducationParagraph>
+                        <EducationLinks href={credentialUrl}>See Credential</EducationLinks>
+                        <EducationLinks href={projectsUrl}>See all projects</EducationLinks>
+                    </EducationContainer>
+                ))}
             
             
             </Section>
