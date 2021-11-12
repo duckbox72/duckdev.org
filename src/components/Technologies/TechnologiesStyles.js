@@ -40,7 +40,7 @@ export const List = styled.ul`
 
   @media ${props => props.theme.breakpoints.md}{
     margin: 64px 0;
-    gap: 12px
+    gap: 12  px
   }
   
   @media ${props => props.theme.breakpoints.sm}{

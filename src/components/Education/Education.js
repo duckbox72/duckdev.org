@@ -2,7 +2,6 @@ import React from 'react';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 
-
 const educationData = [
     { 
         title: "Bachelor's degree in Economics",
@@ -37,17 +36,19 @@ const Education = () => {
             <Section id="education">
                 <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
                 <SectionTitle>Education</SectionTitle>
+            
+            
+            
             </Section>
-
-
-
-
 
 
 
             <Section id="certificates">
                 <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
                 <SectionTitle>Certifications</SectionTitle>
+            
+            
+            
             </Section>
         </>
 
