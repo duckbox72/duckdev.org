@@ -61,6 +61,7 @@ line-height: 28px;
 @media ${props => props.theme.breakpoints.sm}{
 font-size: 14px;
 line-height: 22px;
+text-decoration: underline;
 }
 
 &:hover{
