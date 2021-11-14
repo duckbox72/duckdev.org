@@ -56,9 +56,9 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Data Science</ListTitle>
           <ListParagraph>
-            Pandas Numpy Scipy <br />
-            Matplotlib Seaborn <br />
-            ScikitLearn NLTK <br />
+            Pandas, Numpy, Scipy <br />
+            Matplotlib, Seaborn <br />
+            ScikitLearn,ç NLTK <br />
             TensorFlow
           </ListParagraph>
         </ListContainer>

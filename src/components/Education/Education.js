@@ -53,7 +53,7 @@ const Education = () => {
                 <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
                 <SectionTitle>Certifications</SectionTitle>
                 {certificates.map(({title, institution, issueDate, credentialId, credentialUrl, projectsUrl}) => (
-                    <EducationContainer>
+                    <EducationContainer key={credentialId}>
                         <EducationTitle>{title}</EducationTitle>
                         <EducationParagraph>{institution}</EducationParagraph>
                         <EducationParagraph>Issued {issueDate}</EducationParagraph>
