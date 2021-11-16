@@ -57,7 +57,6 @@ const Education = () => {
                         <EducationTitle>{title}</EducationTitle>
                         <EducationParagraph>{institution}</EducationParagraph>
                         <EducationParagraph>Issued {issueDate}</EducationParagraph>
-                        {/* <EducationParagraph>Credential ID {credentialId}</EducationParagraph> */}
                         <EducationLinks href={credentialUrl} target='_blank'>See Credential</EducationLinks>
                         <EducationLinks href={projectsUrl} target='_blank'>See all projects</EducationLinks>
                     </EducationContainer>
