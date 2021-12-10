@@ -54,7 +54,7 @@ const Education = () => {
                 <SectionTitle>Certifications</SectionTitle>
                 {certificates.map(({title, institution, issueDate, credentialId, credentialUrl, projectsUrl}) => (
                     <EducationContainer key={credentialId}>
-                        <EducationTitle>{title}</EducationTitle>
+                        <EducationTitle>{title} Professional Certificate</EducationTitle>
                         <EducationParagraph>{institution}</EducationParagraph>
                         <EducationParagraph>Issued {issueDate}</EducationParagraph>
                         <EducationLinks href={credentialUrl} target='_blank'>See Credential</EducationLinks>
