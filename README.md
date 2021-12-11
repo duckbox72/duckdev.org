@@ -1,7 +1,9 @@
 
+Hi, i am a self-driven passionate developer, commited to detail, who loves to continually learn and to create intelligent meanigful solutions to real world problems. 
 
-I am a self-driven passionate developer who loves to continuously learn and to create intelligent meanigful solutions for real world problems. Along this quest, I have worked with a range of technologies in both web development an data-science fields.  
+Along the way, I've worked with a number of technologies in the areas of web development and data-science, while i've developed a solid background in both, in fact. In web programming, it covers several languages, architectures, frameworks and database solutions, while in data-science it ranges from the most popular data analisys and visualization libraries, to a number of oriented to AI and machine learning libraries which my experience specially covers. 
 
-Owner of a solid background in Python, including experience with a number data-science related libraries, as well as confort with Django and Flask for web development. Nevertheless fair knowledge 
+In that spirit i'm very excited to contribute with something that really impacts on people's lives.
+
 
 

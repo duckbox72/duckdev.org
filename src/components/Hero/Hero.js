@@ -4,6 +4,7 @@ import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponent
 import Button from '../../styles/GlobalComponents/Button';
 import { Avatar, AvatarContainer, LeftSection } from './HeroStyles';
 
+
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
@@ -15,8 +16,11 @@ const Hero = () => (
         Full Stack Developer
       </SectionTitle>
       <SectionText>
-      I have worked with a range of technologies in web development,  data-science and artificial intelligence
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis libero eget est condimentum rhoncus. Nam sed turpis lectus. Aenean molestie vehicula magna ut condimentum. Aenean faucibus sem dui, ac gravida augue cursus quis. Nam fermentum fringilla risus quis porta. Maecenas tincidunt urna at porta sollicitudin. Nulla facilisi. Nulla finibus.  
+      {
+      "Hi, i am a self-driven passionate developer, commited to detail, who loves to continually learn and to create intelligent meanigful solutions to real world problems. " +
+      "Along the way, I've worked with a number of technologies in the areas of web development and data-science, while i've developed a solid background in both, in fact. In web programming, it covers several languages, architectures, frameworks and database solutions, while in data-science it ranges from the most popular data analisys and visualization libraries, to a number of oriented to AI and machine learning libraries which my experience specially covers. " + 
+      "In that spirit i'm very excited to contribute with something that really impacts on people's lives."
+      }
       </SectionText>
       {/* <Button onClick={() => window.location='https://google.com'}>
         Learn More
