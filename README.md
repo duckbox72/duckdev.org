@@ -7,5 +7,4 @@ Solid experience working with a number of technologies in development and data-s
 
 In that spirit I'm very excited to contribute with something that really impacts on people's lives.
 
-
 Visit at [duckdev.org](http://www.duckdev.org)
