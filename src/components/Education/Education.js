@@ -1,5 +1,4 @@
 import React from 'react';
-import { projects } from '../../constants/constants';
 
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { EducationContainer, EducationLinks, EducationParagraph, EducationTitle } from './EducationStyles';
@@ -30,7 +29,6 @@ const certificates = [
     },
 ]
 
-
 const Education = () => {
     return (
         <>
@@ -42,12 +40,9 @@ const Education = () => {
                     <EducationTitle>{education.institution}</EducationTitle>
                     <EducationParagraph>{education.title}</EducationParagraph>
                     <EducationParagraph>Issued {education.issueDate}</EducationParagraph>
-                </EducationContainer>
-            
+                </EducationContainer>         
             
             </Section>
-
-
 
             <Section id="certificates">
                 <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} />
@@ -61,14 +56,9 @@ const Education = () => {
                         <EducationLinks href={projectsUrl} target='_blank'>See all projects</EducationLinks>
                     </EducationContainer>
                 ))}
-            
-            
+                     
             </Section>
         </>
-
-
-
-
     )
 };
 

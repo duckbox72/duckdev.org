@@ -23,7 +23,6 @@ export const Title = styled.span`
   font-size: 1.6rem;
 `;
 
-
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -32,6 +31,7 @@ export const Div1 = styled.div`
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
@@ -40,6 +40,7 @@ export const Div2 = styled.div`
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
@@ -51,7 +52,6 @@ export const Div3 = styled.div`
   }
 `;
 
-// Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
@@ -67,7 +67,6 @@ export const NavLink = styled.a`
   }
 `;
 
-/// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;
@@ -113,21 +112,15 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
-// Social Icons 
-
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: rgba(255, 255, 255, 0.75);
-// border-radius: 50%;
-//padding-hotizontal: 8px;
-&:hover {
-  //background-color: #212d45;
-  color: #fff;
-  transform: scale(1.2);
-  cursor: pointer;  
+  transition: 0.3s ease;
+  color: rgba(255, 255, 255, 0.75);
+  &:hover {
+    color: #fff;
+    transform: scale(1.2);
+    cursor: pointer;  
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    color: #fff;
 }
-@media ${(props) => props.theme.breakpoints.sm} {
-  color: #fff;
-}
-`
+`;

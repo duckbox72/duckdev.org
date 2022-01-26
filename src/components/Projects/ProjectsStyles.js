@@ -5,13 +5,12 @@ export const Img = styled.img`
   height:85%;
   object-fit: cover;
   overflow: hidden;
-  //border-radius: 24px 24px 24px 24px;
   border-radius: 16px;
   padding: 12px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
-`
+`;
 
 export const GridContainer = styled.section`
 display: grid;
@@ -26,26 +25,25 @@ row-gap: 3rem;
   padding: 2rem;
   padding-bottom: 0;
 }
+`;
 
-`
 export const BlogCard = styled.div`
   border-radius: 12px;
-  //box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.02) 0%, rgba(255, 255, 255, 0.03) 100%);
-  //background-color: #212D45;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
 `;
+
 export const TitleContent = styled.div`
   color: rgba(255, 255, 255, 0.85);
   text-align: center;
   z-index: 20;
   width: 100%;
 `;
-
 
 export const HeaderThree = styled.h3`
   font-weight: 500;
@@ -60,8 +58,7 @@ export const Hr = styled.hr`
   height: 3px;
   margin: 20px auto;
   border: 0;
-  //background: #d0bb57;
-
+  
   background: linear-gradient(270deg, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 1) 100%);
 `;
 
@@ -75,7 +72,6 @@ export const Intro = styled.div`
   line-height: 18px;
 `;
 
-
 export const CardInfo = styled.p`
   width: 100%;
   padding: 0 50px;
@@ -85,10 +81,8 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 1rem;
-  
-}
+  }
 `;
-
 
 export const UtilityList = styled.ul`
   list-style-type: none;
@@ -99,28 +93,28 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-display: flex;
-flex-direction: row;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 
-color:#f5f5f5;
-font-size: 1.6rem;
-padding:1.0rem 1.8rem;
-border-radius: 50px;
-transition: 0.5s;
+  color:#f5f5f5;
+  font-size: 1.6rem;
+  padding:1.0rem 1.8rem;
+  border-radius: 50px;
+  transition: 0.5s;
 
-&:hover{
-  background: #212D45;
-  //background: #4b5670;
+  &:hover{
+    background: #212D45;
 }
 `;
 
 export const TagList = styled.ul`
-display: flex;
-justify-content: space-around;
-padding: 1.5rem;
-`
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
+`;
+
 export const Tag = styled.li`
-color: rgba(255, 255, 255, 0.7);
-font-size: 1.5rem;
-`
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.5rem;
+`;

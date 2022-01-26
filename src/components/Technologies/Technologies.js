@@ -3,16 +3,13 @@ import { FaReact } from "react-icons/fa";
 import { GiArtificialHive } from "react-icons/gi";
 import { BiServer, BiData } from "react-icons/bi";
 
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
     <SectionDivider style={{marginBottom: '1rem', marginTop: '3rem'}} /> 
     <SectionTitle>Skills</SectionTitle>
-    {/* <SectionText>
-      I have worked with a range of technologies in web development,  data-science and artificial intelligence
-    </SectionText> */}
     <List>
       <ListItem>
         <FaReact size="30px" />
@@ -20,7 +17,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             HTML/CSS <br />
-            JavaScript <br />
+            JavaScript/TypeScript <br />
             React.js <br />
             React-Native 
           </ListParagraph>

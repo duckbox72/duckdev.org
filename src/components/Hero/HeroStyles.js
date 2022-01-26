@@ -18,17 +18,13 @@ export const LeftSection = styled.div`
 `;
 
 export const AvatarContainer = styled.div` 
-  
-  // margin: auto; 
-  // width: 50%;
-  
   padding: 4px;
   width: 240px;
   height: 240px;  
   background: linear-gradient(270deg, #00DBD8 0%, #B133FF 100%);
   border-radius: 50%;
   line-height: 0;
-  //margin-bottom: -40px;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 3px;
     width: 160px;
@@ -48,6 +44,5 @@ export const Avatar = styled.img`
     height: 154px;
     border: 3px solid #121214;
   }
- 
 `;
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillYoutube, AiFillThunderbolt } from 'react-icons/ai';
+import { AiFillGithub, AiFillYoutube } from 'react-icons/ai';
 import { MdHome } from "react-icons/md";
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';

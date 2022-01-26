@@ -20,18 +20,18 @@ export const EducationTitle = styled.h4`
   color: #FFFFFF;
   margin-bottom: 8px;
 
-@media ${props => props.theme.breakpoints.md}{
-  font-size: 24px;
-  line-height: 28px;
-}
+  @media ${props => props.theme.breakpoints.md}{
+    font-size: 24px;
+    line-height: 28px;
+  }
 
-@media ${props => props.theme.breakpoints.sm}{
-  font-size: 20px;
-  line-height: 28px;
-  letter-spacing: 0.02em;
-  margin-bottom: 4px;
-}
-`
+  @media ${props => props.theme.breakpoints.sm}{
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    margin-bottom: 4px;
+  }
+`;
 
 export const EducationParagraph = styled.p`
   font-size: 18px;
@@ -47,24 +47,25 @@ export const EducationParagraph = styled.p`
     font-size: 14px;
     line-height: 22px;
   }
-`
+`;
+
 export const EducationLinks = styled.a`
 font-size: 18px;
 line-height: 30px;
 color: rgba(255, 255, 255, 0.75);
 
-@media ${props => props.theme.breakpoints.md}{
-font-size: 16px;
-line-height: 28px;
-}
+  @media ${props => props.theme.breakpoints.md}{
+  font-size: 16px;
+  line-height: 28px;
+  }
 
-@media ${props => props.theme.breakpoints.sm}{
-font-size: 14px;
-line-height: 22px;
-text-decoration: underline;
-}
+  @media ${props => props.theme.breakpoints.sm}{
+  font-size: 14px;
+  line-height: 22px;
+  text-decoration: underline;
+  }
 
-&:hover{
-    color: #fff;
-}
-`
+  &:hover{
+      color: #fff;
+  }
+`;
