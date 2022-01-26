@@ -1,7 +1,7 @@
 # Luis Felipe Klaus
 ## Fullstack Developer
 
-Self-driven passionate developer, commited to detail, who loves to continually learn and create intelligent meanigful solutions to real world problems. 
+Self-driven passionate developer, committed to detail, who loves to continually learn and create intelligent meaningful solutions to real world problems. 
 
 Solid experience working with a number of technologies in development and data-science, covering from several languages, architectures, frameworks and database solutions to the most popular data analysis and visualization libraries, as well as a number of AI and machine learning specific libraries. 
 
