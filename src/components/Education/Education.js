@@ -10,15 +10,15 @@ const education =
         issueDate: 'Oct 1999',
     }
 
-const certificates = [    
+const certificates = [
     { 
-        title: 'Computer Science for Web Programming',
-        institution: 'Harvard University',
-        issueDate: 'Jun 2021',
-        credentialId: 'c2cefb1c98a84179ad06ea51262e162a',
-        credentialUrl: 'https://credentials.edx.org/credentials/c2cefb1c98a84179ad06ea51262e162a',
-        projectsUrl: 'https://github.com/duckbox72/CS50WEB-projects',  
-    },
+        title: 'IBM Data Science',
+        institution: 'IBM',
+        issueDate: 'Mar 2024',
+        credentialId: '6Q59FEEKAE3Q',
+        credentialUrl: 'https://www.coursera.org/account/accomplishments/professional-cert/6Q59FEEKAE3Q', 
+        projectsUrl: 'https://github.com/duckbox72/ibm-applied-data-science-capstone.git',    
+    },    
     { 
         title: 'Computer Science for Artificial Intelligence',
         institution: 'Harvard University',
@@ -26,6 +26,14 @@ const certificates = [
         credentialId: '7772d8388c694146b22a7b493750d2a2',
         credentialUrl: 'https://credentials.edx.org/credentials/7772d8388c694146b22a7b493750d2a2', 
         projectsUrl: 'https://github.com/duckbox72/CS50AI-projects',    
+    },
+    { 
+        title: 'Computer Science for Web Programming',
+        institution: 'Harvard University',
+        issueDate: 'Jun 2021',
+        credentialId: 'c2cefb1c98a84179ad06ea51262e162a',
+        credentialUrl: 'https://credentials.edx.org/credentials/c2cefb1c98a84179ad06ea51262e162a',
+        projectsUrl: 'https://github.com/duckbox72/CS50WEB-projects',  
     },
 ]
 
@@ -52,8 +60,8 @@ const Education = () => {
                         <EducationTitle>{title} Professional Certificate</EducationTitle>
                         <EducationParagraph>{institution}</EducationParagraph>
                         <EducationParagraph>Issued {issueDate}</EducationParagraph>
-                        <EducationLinks href={credentialUrl} target='_blank'>See Credential</EducationLinks>
-                        <EducationLinks href={projectsUrl} target='_blank'>See all projects</EducationLinks>
+                        <EducationLinks href={credentialUrl} target='_blank'>Credential</EducationLinks>
+                        <EducationLinks href={projectsUrl} target='_blank'>Projects</EducationLinks>
                     </EducationContainer>
                 ))}
                      
