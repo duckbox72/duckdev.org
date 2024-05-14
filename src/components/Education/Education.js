@@ -6,7 +6,7 @@ import { EducationContainer, EducationLinks, EducationParagraph, EducationTitle 
 const education = 
     { 
         title: "Bachelor's degree in Economics",
-        institution: 'Universidade Federal de Pernambuco',
+        institution: 'Universidade Federal de Pernambuco / Brazil',
         issueDate: 'Oct 1999',
     }
 
