@@ -20,7 +20,7 @@ const certificates = [
         projectsUrl: 'https://github.com/duckbox72/ibm-applied-data-science-capstone.git',    
     },
     { 
-        title: 'Node JS',
+        title: 'Node JS Ignite Program',
         institution: 'Rocketseat',
         issueDate: 'May 2022',
         credentialId: '80ff29a7-76b2-4d78-b75b-7137b06a522d',
