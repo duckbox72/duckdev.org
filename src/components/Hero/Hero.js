@@ -10,7 +10,7 @@ const Hero = () => (
           <Avatar src='/images/face_stamp.jpg'/>
         </AvatarContainer>
       <SectionTitle main center>
-        Luis Felipe Klaus <br />
+        Luis Klaus <br />
         Full Stack Developer
       </SectionTitle>
       <SectionText>
