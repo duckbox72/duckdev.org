@@ -14,11 +14,16 @@ const Hero = () => (
         Full Stack Developer
       </SectionTitle>
       <SectionText>
+      {/* 
       {"Self-driven passionate developer, committed to detail, who loves to continuously learn and create intelligent meaningful solutions to real world problems. "}   
       <br />
       {"Solid experience working with a number of technologies in development and data-science, covering from several languages, architectures, frameworks and database solutions to the most popular data analysis and visualization libraries, as well as a number of AI and machine learning specific libraries. "}
       {"In that spirit I'm very excited to contribute with something that really impacts on people's lives."}
+      */}
       
+      {
+        "As a self-driven and passionate developer committed to detail, I thrive on continuous learning and crafting intelligent, meaningful solutions to real-world problems. With solid experience spanning various technologies in development and data science, I have worked with a multitude of languages, architectures, frameworks, and database solutions, as well as popular data analysis and visualization libraries, along with numerous AI and machine learning tools. In this spirit, I am excited to contribute to projects that make a tangible impact on people's lives."
+      }
       </SectionText>
     </LeftSection>
   </Section>
