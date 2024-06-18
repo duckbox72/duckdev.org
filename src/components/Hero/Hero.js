@@ -22,7 +22,7 @@ const Hero = () => (
       */}
       
       {
-        "As a self-driven and passionate developer committed to detail, I thrive on continuous learning and crafting intelligent, meaningful solutions to real-world problems. With solid experience spanning various technologies in development and data science, I have worked with multiple languages, architectures, frameworks, and database solutions, as well as popular data analysis and visualization libraries, along with numerous AI and machine learning tools. In this spirit, I am excited to contribute to projects that make a tangible impact on people's lives."
+        "Self-driven and passionate software developer with a keen attention to detail and a commitment to continuous learning. Experienced in developing intelligent, meaningful solutions to real-world problems, with proficiency in multiple languages, architectures, frameworks, and database solutions. Skilled in data analysis and visualization using popular libraries, and adept in various AI and machine learning tools. Eager to contribute to impactful projects."
       }
       </SectionText>
     </LeftSection>
